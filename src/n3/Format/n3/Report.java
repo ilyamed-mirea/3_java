@@ -29,7 +29,7 @@ public class Report {
 
     public static void generateReport() {
         for (int i = 0; i < empCount; i++) {
-            System.out.printf("%-25s %25.2f %15s\n", employees[i].getFullname(), employees[i].getSalary(), Math.random()>0.3?"Approved":"Not Approved");
+            System.out.printf("%-25s %25.2f %15s %n", employees[i].getFullname(), employees[i].getSalary(), Math.random()>0.3?"Approved":"Not Approved");
         }
     }
 
