@@ -1,4 +1,4 @@
-package n6;
+package n11;
 
 public class test {
 }
