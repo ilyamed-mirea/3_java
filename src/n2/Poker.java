@@ -19,6 +19,7 @@ public class Poker {
             }
         //get players count
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter players count: ");
         c = sc.nextInt();
         if (c>9)
             System.exit(-1);

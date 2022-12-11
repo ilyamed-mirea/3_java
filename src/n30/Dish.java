@@ -1,9 +1,9 @@
 package n30;
 
 final class Dish extends MenuItem {
-    private final String name;
-    private final int price;
-    private final String description;
+    private String name;
+    private int price;
+    private String description;
 
     public Dish(String name, int price, String description) {
         super(name, description, price, 0);

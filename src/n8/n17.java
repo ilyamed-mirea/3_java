@@ -3,7 +3,6 @@ package n8;
 import java.util.Scanner;
 
 public class n17 {
-    //find maximum element in integer input via recursion
     static Scanner scanner = new Scanner(System.in);
     public static int max(int max) {
         int inp = scanner.nextInt();

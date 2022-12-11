@@ -7,7 +7,6 @@ import java.util.ArrayList;
 public class TesterPRO {
     public ArrayList<Student> iDNumber = new ArrayList<>();
 
-    //fill array
     public void setArray() {
         iDNumber.add(new Student("John", "Doe", "IT", 123, 3));
         iDNumber.add(new Student("Max", "Doe", "IT", 21, 2));

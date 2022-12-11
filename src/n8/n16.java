@@ -1,6 +1,7 @@
 package n8;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Scanner;
 
 public class n16 {
@@ -10,13 +11,11 @@ public class n16 {
         if (inp == 0) {
             int max = -1000000;
             int count = 0;
-            //find max element
             for (int i = 0; i < arr.size(); i++) {
                 if (arr.get(i) > max) {
                     max = arr.get(i);
                 }
             }
-            //calculate how many times max element is in array
             for (int i = 0; i < arr.size(); i++) {
                 if (arr.get(i) == max) {
                     count++;

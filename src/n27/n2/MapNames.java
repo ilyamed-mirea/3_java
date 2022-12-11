@@ -13,6 +13,12 @@ public class MapNames implements Map<String, String> {
         mapNames.put("Misha", "Ivanov");
         mapNames.put("Grisha", "Petrov");
         mapNames.put("Tima", "Petrov");
+
+        //print mapNames Map key and value
+        for (Map.Entry<String, String> pair : mapNames.entrySet()) {
+            System.out.println(pair.getKey() + " - " + pair.getValue());
+        }
+
     }
 
     public HashMap<String, String> createMap() {

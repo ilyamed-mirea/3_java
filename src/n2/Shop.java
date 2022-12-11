@@ -42,11 +42,12 @@ class Test {
         Scanner sc = new Scanner(System.in);
         int colv = sc.nextInt();
         for (int i=0;i<=colv;i++) {
+            System.out.println("Введите название компьютера:");
             String compName = sc.nextLine();
             shop.addComputer(compName);
         }
         sc.close();
         shop.print();
-        System.out.println(shop.findComputer("cve"));
+        System.out.println(shop.findComputer("IBM"));
     }
 }

@@ -15,5 +15,7 @@ public class n2 {
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>();
         getFrom1ToN(arr, 10);
+        for (int i = 0; i < arr.size(); i++)
+            System.out.println(arr.get(i));
     }
 }

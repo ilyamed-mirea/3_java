@@ -7,8 +7,6 @@ import java.util.ArrayList;
 
 public class T
 {
-
-    //write TesterPRO mergeSort
     static public TesterPRO mergeSort2(TesterPRO list) {
         if (list.iDNumber.size() <= 1) {
             return list;
